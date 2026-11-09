@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/logo-favicon.png">
+    <title>About — Muhammad Fadil Furqon Al-Qudsi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body data-page="about">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-github" viewBox="0 0 24 24"><path fill="#0b0b0b" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><rect width="24" height="24" rx="3" fill="#0b0b0b"/><path fill="#e7e6e3" d="M4.5 9.5h3V19h-3zM6 5a1.75 1.75 0 1 1 0 3.5A1.75 1.75 0 0 1 6 5zm4 4.5h2.9v1.3c.5-.9 1.6-1.5 3-1.5 3 0 3.6 2 3.6 4.5V19h-3v-4.7c0-1.1 0-2.5-1.6-2.5s-1.8 1.2-1.8 2.4V19h-3z"/></symbol>
+        <symbol id="i-email" viewBox="0 0 24 24"><path fill="#0b0b0b" d="M2 5.5 12 13 22 5.5V19h-4.5v-8L12 15.2 6.5 11v8H2z"/><path fill="#0b0b0b" d="M2 4h2l8 6 8-6h2v1.5L12 13 2 5.5z"/></symbol>
+        <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="#0b0b0b" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/></g><circle cx="17.4" cy="6.6" r="1.4" fill="#0b0b0b"/></symbol>
+    </svg>
+    <header class="nav">
+        <a href="indexf.html#home" aria-label="Beranda"><img class="logo logo-f" src="img/logo-f.png" alt="" aria-hidden="true"></a>
+        <nav class="nav-links" aria-label="Navigasi utama"><a href="indexf.html#home">Home</a><a href="aboutf.html" class="active">About</a><a href="indexf.html#certifications">Education</a><a href="projectf.html">Projects</a><a href="indexf.html#contact">Contact</a></nav>
+    </header>
+    <main>
+        <!-- BOX 1 -->
+        <section class="b1" id="b1" aria-label="Muhammad Fadil Furqon Al-Qudsi">
+            <img src="img/about.jpeg" alt="Dua tangan hampir bersentuhan">
+            <canvas id="rv" aria-hidden="true"></canvas>
+            <h1 class="nm">
+                <span class="ln"><span class="l">Muhammad</span><span class="r">Fadil</span></span>
+                <span class="ln"><span class="r">Furqon</span><span class="l">Al-Qudsi</span></span>
+            </h1>
+            <span class="hint">Arahkan kursor ke gambar</span>
+        </section>
+
+        <!-- BOX 2 -->
+        <section class="b2" id="who">
+            <h2 id="typ" class="caret" aria-label="WHO I'M"></h2>
+            <p class="rise" id="whoP">Mahasiswa Sistem Informasi di Institut Pendidikan Indonesia (IPI) Garut yang memiliki minat pada pengembangan web, analisis data, dan teknologi informasi. Berpengalaman mengembangkan aplikasi berbasis Laravel, pengelolaan database, serta integrasi
+                QR Code dan IoT. Berkomitmen untuk terus mengembangkan keterampilan dan menciptakan solusi digital yang inovatif dan bermanfaat.</p>
+            <img src="img/foto.jpeg" alt="Foto Muhammad Fadil Furqon Al-Qudsi">
+        </section>
+
+        <!-- BOX 3 -->
+        <section class="b3" id="skills">
+            <h2>Skill &amp; Experience</h2>
+            <div>
+                <div class="sub">Tools</div>
+                <div class="tools" id="tools"></div>
+            </div>
+            <div>
+                <div class="sub">Language</div>
+                <div class="langs"><span class="roll skill-roll">PHP</span><span class="roll skill-roll">JavaScript</span><span class="roll skill-roll">Python</span><span class="roll skill-roll">Dart</span><span class="roll skill-roll">SQL</span><span class="roll skill-roll">HTML &amp; CSS</span></div>
+                <!-- ganti daftar bahasa sesuai yang kamu kuasai -->
+            </div>
+            <div>
+                <div class="sub">Skill</div>
+                <div class="skills" id="skillList"></div>
+            </div>
+        </section>
+
+        <!-- PERSONAL EXPERIENCE -->
+        <section class="exp" id="experience">
+            <h2>Personal Experience</h2>
+            <article class="p-step">
+                <div class="p-title"><small> Juli 2025 — Oktober 2025</small><b>PT Kereta Api Indonesia (KAI)</b></div>
+                <div class="p-card">
+                    <h3>Magang — Junior Frontend WEB</h3>
+                    <p>Berpartisipasi dalam pengembangan aplikasi internal Instansi berbasis web menggunakan framework Laravel. Mempelajari penerapan metode Agile Scrum dalam pengembangan perangkat lunak, pengelolaan antarmuka (frontend), serta kolaborasi
+                        tim dalam proses pengembangan sistem.</p>
+                    <div class="logos" data-logos="php/php-original,javascript/javascript-original,mysql/mysql-original"></div>
+                </div>
+            </article>
+            <article class="p-step">
+                <div class="p-title"><small> Juni 2026 — Agustus 2026 </small><b>SolterFarm</b></div>
+                <div class="p-card">
+                    <h3>Magang — FullStack WEB Developer </h3>
+                    <p>Bertanggung jawab atas perancangan dan pengembangan sistem informasi peternakan berbasis web secara menyeluruh (Full-Stack), mulai dari desain antarmuka (UI), pengembangan frontend dan backend, pengelolaan database, hingga integrasi
+                        teknologi QR Code dan Internet of Things (IoT) untuk pendataan serta monitoring kondisi ternak. Menggunakan PHP, Laravel, HTML, CSS, JavaScript, MySQL, ESP32, dan Firebase dalam proses pengembangan dan pengujian sistem.</p>
+                    <div class="logos" data-logos="laravel/laravel-original,mysql/mysql-original,arduino/arduino-original"></div>
+                </div>
+            </article>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="edu" id="education">
+            <h2>Education</h2>
+            <ul class="cert-list" id="eduList">
+                <li class="cert" id="eduIpi" role="button" tabindex="0" aria-expanded="false" aria-controls="eduPanel" data-a="Institut Pendidikan Indonesia (IPI) Garut" data-b="Klik untuk detail +"></li>
+                <li class="edu-panel" id="eduPanel">
+                    <div class="edu-in">
+                        <div class="edu-body">
+                            <small>2022 — 2026</small>
+                            <p>S1 Sistem Informasi — Fakultas Ilmu Terapan dan Sains</p>
+                            <div class="lb-g">
+                                <div>
+                                    <h4>Perkuliahan</h4>
+                                    <p>Mendalami bidang teknologi informasi, khususnya pemrograman web, basis data, analisis sistem, dan rekayasa perangkat lunak bahkan mempelajari A.I . Mempelajari perancangan, pengembangan, serta pengelolaan aplikasi untuk
+                                        menyelesaikan berbagai kebutuhan digital.</p>
+                                </div>
+                                <div>
+                                    <h4>Proyek &amp; Skripsi</h4>
+                                    <p>Mengembangkan aplikasi mobile pengelolaan data santri menggunakan Expo sebagai proyek perkuliahan. Selain itu, merancang dan membangun sistem informasi peternakan SolterFarm berbasis web sebagai penelitian skripsi menggunakan
+                                        Laravel, PHP, MySQL, QR Code, dan teknologi IoT.</p>
+                                </div>
+                                <div>
+                                    <h4>Magang</h4>
+                                    <p>Memiliki pengalaman magang di PT tertentu dalam pengembangan aplikasi berbasis Laravel dengan metode Agile Scrum. Selain itu, menjalani peran Full-Stack Developer di UMKM dengan tanggung jawab mengembangkan sistem informasi
+                                        peternakan secara menyeluruh, mulai dari frontend, backend, database, hingga integrasi teknologi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- GET IN TOUCH -->
+        <section class="cta" id="contact">
+            <a class="big" href="indexf.html#contact"><span class="roll">Get In Touch</span></a>
+            <div class="c-links">
+                <a class="lnk" href="mailto:fadildodil87@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><use href="#i-email"/></svg><span class="roll">Email</span></a>
+                <a class="lnk" href="https://github.com/Furqon31" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><use href="#i-github"/></svg><span class="roll">GitHub</span></a>
+                <a class="lnk" href="https://instagram.com/hauhi30" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><use href="#i-instagram"/></svg><span class="roll">Instagram</span></a>
+                <a class="lnk" href="https://linkedin.com/in/fadil-furqon-801635443/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><use href="#i-linkedin"/></svg><span class="roll">LinkedIn</span></a>
+            </div>
+        </section>
+    </main>
+    <footer>© Muhammad Fadil Furqon Al-Qudsi</footer>
+
+
+
+</body>
+
+</html>
